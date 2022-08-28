@@ -1,13 +1,17 @@
 miVariable = 3
 print(miVariable)
+
 miVariable = "a"
 print(miVariable)
+
 miVariable = 3.5
 print(miVariable)
+
 x=10
 y=2
 z=x+y
 print(id(x))
+
 #los literales se escriben x=960 y=704 z=024
 print(id(y))
 print(id(z))
@@ -16,6 +20,7 @@ print(id(z))
 x = 10
 print(x)
 print(type(x))
+
 x = 14.5
 print(x)
 print(type(x))
