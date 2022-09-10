@@ -330,3 +330,6 @@ print(cola)
 seRetira = cola.pop(0)
 print(f'Atendido el cliente {seRetira}')
 print(cola)
+
+for i in seleccionArgentina:
+    print(f'{i}= {seleccionArgentina[i]}')
