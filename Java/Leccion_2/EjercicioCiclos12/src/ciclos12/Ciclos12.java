@@ -1,4 +1,5 @@
 /*
+Alumno: Israel Leonardo Montiel 
 Pedir un número y sacar su factorial. Hacerlo con las dos clases: Scanner y JOption Pane
  */
 package ciclos12;
