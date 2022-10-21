@@ -1,5 +1,6 @@
 /*
- Ejercicio 11: Diseñar un programa que muestre el producto de los 10 primeros 
+Alumno: Carlos Gustavo Ortiz
+Ejercicio 11: Diseñar un programa que muestre el producto de los 10 primeros 
 números impares. Utilizar JOptionPane
  */
 package ciclos11;
