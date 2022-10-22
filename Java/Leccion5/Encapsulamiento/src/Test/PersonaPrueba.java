@@ -32,5 +32,6 @@ public class PersonaPrueba {
         
         //System.out.println("persona1" + persona1.toString()); Es lo mismo lo de abajo. No es nec. poner toString
         System.out.println("persona1" + persona1);
-    }
+        
+        }
 }
