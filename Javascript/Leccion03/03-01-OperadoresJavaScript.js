@@ -6,7 +6,7 @@ else{
     console.log("Es un número impar")
 }
 
-// Ejercicio es mayor de edad
+// Ejercicio: es mayor de edad
 let edad = 10, adulto = 18;
 if (edad >= 18){
   console.log("Es una persona adulta")}
