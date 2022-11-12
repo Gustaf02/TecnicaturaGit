@@ -1,4 +1,6 @@
 from abc import ABC, abstractmethod
+
+
 # ABC significa: Abstract Base Class, convierte una clase en abstracta
 class FiguraGeometrica(ABC):  # eS hija de ABC
     def __init__(self, ancho, alto):

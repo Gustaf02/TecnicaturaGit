@@ -1,5 +1,4 @@
 from Cuadrado import Cuadrado
-from FiguraGeometrica import FiguraGeometrica
 from Rectangulo import Rectangulo
 
 print('Creación de objeto clase cuadrado'.center(50,'_'))
