@@ -46,7 +46,7 @@ public class TestMatrices {
         
         //Creamos una matriz de objetos
         Persona personas[][] = new Persona[2][3];
-        //Signamos valores a la matriz
+        //Asignamos valores a la matriz
         personas[0][0] = new Persona("Ariel");
         personas[0][1] = new Persona("Osvaldo");
         personas[0][2] = new Persona("Liliana");
