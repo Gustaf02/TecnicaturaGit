@@ -10,8 +10,8 @@ def imprimir_detalles(objeto): # Este es el método para aprender lo que es el p
         print(objeto.departamento)
 
 
-empleado = Empleado('Ariel', 50000)
+empleado = Empleado('Fernando', 50000)
 imprimir_detalles(empleado)
 
-gerente = Gerente('Natalia', 60000, 'Sistemas')
+gerente = Gerente('Darío', 60000, 'Sistemas')
 imprimir_detalles(gerente)
