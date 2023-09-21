@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Gustavo Ortiz">
+    <meta name="description" content="Organizacion Empresarial">
+    <meta name="keywords" content="tutoriales, html, desarrollo web">
+    <title>Organización Empresarial</title>
+    <link rel="icon" href="imagen.png">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+    <!--  Llena de color todo el body (el cuerpo de la página web)-->
+    <style>
+        body {
+            background: rgb(124, 217, 230);
+        }
+    </style>
+   
+  <!--  esto permite que los elementos Inicio, Acerca de, Servicios, contacto aparezcan al lado, sino estaría debajo uno del otro-->
+        <style>
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+    
+            nav ul li {
+                display: inline-block;
+                margin-right: 10px;
+            }
+        </style>
+
+<style>
+    header {
+      width: 1000px;
+      height: 30px;
+      background: rgb(155, 181, 230);
+      margin: 20px;
+      border: 2px solid rgb(89, 0, 255);
+    }
+  </style>
+  
+
+<!--  Le da la características a una "caja" en el sitio web -->
+<style>
+    #caja {
+      width: 200px;
+      height: 200px;
+      background: yellow;
+    }
+  </style>
+  
+  <!--Le da las características a un grupo de cajas creadas en el body (cuerpo)-->
+
+<style>
+    .grupo {
+      width: 200px;
+      height: 200px;
+      background: rgb(151, 151, 173);
+      margin: 16px;
+    }
+  </style>
+
+         
+</head>
+<body>
+    <header>ORGANIZACION EMPRESARIAL</header>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    
+    <section>
+        <h1>Bienvenido a mi sitio web</h1>
+        <p>En esta sección encontrarás información sobre nosotros y nuestros servicios.</p>
+    </section>
+    <aside>
+        <h2>Anuncios importantes</h2>
+        <p>No te pierdas nuestras ofertas especiales de esta semana.</p>
+    </aside>
+    <article>
+        <h1>Artículo de ejemplo</h1>
+        <p>Este es un artículo de ejemplo sobre un tema interesante.Un artículo científico es un trabajo de investigación o comunicación científica publicado en alguna revista especializada. También se le llama documento científico, o simplemente artículo o publicación</p>
+    </article>
+    <h1>Título principal</h1>
+    <p>Este es un párrafo de texto dentro de la página.</p>
+    <a href="https://www.ejemplo.com">Visitar nuestro sitio web</a>
+    
+    <b>Este parte la coloco en negrita</b>
+
+    
+<!--  adjuntamos una imagen -->
+<figure><img src="img/paisaje.jpg" alt="Descripción de la imagen: faro"style="height: 400px;"></figure>
+
+   
+     <!--  lista ordenada -->
+
+     <h2>Lista de elementos ordenada</h2> <!--  esto no hace falta colocarlo, sólo es un título -->
+
+     <ol>
+         <li>auto</li>
+         <li>barco</li>
+         <li>avion</li>
+     </ol>
+
+     <!-- lista no ordenada -->
+     <h2>Lista de elementos no ordenada</h2> <!--  esto no hace falta colocarlo, sólo es un título -->
+
+
+     <ul>
+         <li>Inicio</li>
+         <li>Noticias</li>
+         <li>Articulos</li>
+         <li>Contactos</li>
+     </ul>
+    
+    <h2>Tabla de gastos mensuales</h2> <!--  Es el título -->
+
+     <table border="6"> <!--este número indica el grueso de la línea -->
+         <thead>
+             <tr>
+                 <th>Mes</th>
+                 <th>Gastos</th>
+             </tr>
+         </thead>
+         <tbody>
+             <tr>
+                 <td>Enero</td>
+                 <td>$1000</td>
+             </tr>
+             <tr>
+                 <td>Febrero</td>
+                 <td>$2000</td>
+             </tr>
+         </tbody>
+     </table>
+
+     <!--Estructura para indicadores -->
+     <h2>Estructura para indicadores</h2>
+     
+     <p>Carlos: <meter value="12" min="0" max="100" high="90"></meter> </p>
+     <p>Ana: <meter value="60" min="0" max="100" high="90"></meter></p>
+     <p>Andres: <meter value="85" min="0" max="100" high="90"></meter> </p>
+     <p>Pedro: <meter value="45" min="0" max="100" high="90"></meter> </p>
+
+     <!--footer: es una etiqueta compuesta , que se la conoce como pie de página y que se puede utilizar para colocar los derechos de autor, derechos reservados, la fecha en la que se creó la página, el contacto de la empresa, etc. -->
+    
+     <footer></footer>
+     <h2>Resultado de ventas</h2>
+     <p>Enero: <progress value="94" min="0" max="100"></progress> </p>
+     <p>Febrero: <progress value="60" min="0" max="100"></progress> </p>
+     <p>Marzo: <progress value="85" min="0" max="100"></progress> </p>
+     <p>Abril: <progress value="45" min="0" max="100"></progress> </p>
+
+
+    
+     
+     <div id="caja">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates vel vero sed esse eum maiores reiciendis pariatur nobis veritatis saepe. Quas ipsa delectus temporibus distinctio expedita magni reprehenderit eius accusantium.</p>
+    </div>
+
+     <!--Estructura para la creación de un grupo de cajas -->
+    <div class="grupo"></div>
+    <div class="grupo"></div>
+        
+   
+    <!--Estructura para videos, tienen que estar subidos en la carpeta video en este caso (no está cargado/ ver izquierda) -->
+    <video autoplay controls loop width="500" height="200">
+        <source src="video/video.mp4" type="video/mp4">
+        <source src="video/video.ogv" type="video/ogv">
+        <source src="video/video.webm" type="video/webm">
+    </video>
+
+    <iframe width="500" height="280" src="https://www.youtube.com/watch?v=KEElZdEWz0M" frameborder="0" allowfullscreen></iframe>
+
+    <!--Estructura para audios-->
+    <audio autoplay controls loop preload="auto"></audio>
+    <source scr="audio/audio.mp4" type ="audio/mp4"
+
+    <div id="c1" class="grupo">brochette</div>
+    <div id="c2" class="grupo">hamburguesas</div>
+    <div id="c3" class="grupo">vinoHarina</div>
+
+
+    <div class="background"></div>
+    <div class="container">
+        
+        <h3>Registro</h3>
+        <form class="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido">
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad">
+            <label for="estadoCivil">Estado Civil:</label>
+            <select id="estadoCivil" name="estadoCivil">
+                <option value="soltero">Soltero/a</option>
+                <option value="casado">Casado/a</option>
+                <option value="divorciado">Divorciado/a</option>
+                <option value="viudo">Viudo/a</option>
+            </select>
+            <label for="domicilio">Domicilio:</label>
+            <input type="text" id="domicilio" name="domicilio">
+            <label for="numeroDocumento">Número de Documento:</label>
+            <input type="text" id="numeroDocumento" name="numeroDocumento">
+            <button type="submit">Enviar</button>
+
+
+            
+        </form>
+       
+        
+
+        <!--Esto puede ir afuera del formulario, simplemente lleva a un enlace ejemplo -->
+
+        <a class="enlace" href="https://www.ejemplo.com">Enlace a Ejemplo</a>
+
+        <!--Se ha colocado dentro del formulario, pero puede ir afuera, es para chat -->
+        
+        <div class="chat">
+            <button class="chat-btn">Chat</button>
+        </div>
+    </div>
+
+
+     <!--Estructura para registrarse con usuario y contraseña-->
+
+    <header>
+        <h1>Iniciar Sesión</h1>
+    </header>
+    <main>
+        <section id="login">
+            <h2>Ingrese sus credenciales:</h2>
+            <form action="procesar_login.php" method="POST">
+                <label for="usuario">Usuario:</label>
+                <input type="text" id="usuario" name="usuario" required>
+                
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+                
+                <input type="submit" value="Iniciar Sesión">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Mi Sitio Web</p>
+    </footer>
+
+
+
+</body>
+</html>
